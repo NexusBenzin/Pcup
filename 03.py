@@ -2,7 +2,7 @@ import tkinter
 import random
 
 
-number = random.randint(10000,100000)
+number = None
 label = None
 label2 = None
 
