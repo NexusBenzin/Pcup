@@ -8,10 +8,7 @@ def kniha(sirka,vyska):
         lt(90)
 
 def polica(sirka, vyska):
-    lt(90)
-    fd(vyska)
-    bk(vyska)
-    rt(90)
+
 
     penup()
     fd(10)
@@ -24,11 +21,12 @@ def polica(sirka, vyska):
         pendown()
 
 
-    lt(90)
-    fd(vyska)
-    bk(vyska)
-    rt(90)
 
+    fd(10)
+    bk(sirka * 10 + 10 * 10 + 30)
 
+speed(0)
 polica(30, 100)
+hideturtle()
+
 exitonclick()
