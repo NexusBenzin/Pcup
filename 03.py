@@ -36,4 +36,3 @@ root.after(1000, remove_label)
 root.mainloop()
 
 
-
